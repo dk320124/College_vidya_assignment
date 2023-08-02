@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navigation Bar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    .unorder{
+        margin: 40px;
+        font-size: 20px;
+    }
+    .unorder2{
+        margin-left: 100px;
+        display: flex;
+    }
+    
+   .sign{
+    margin-top: -8px;
+    color: blue;
+    font-size: 25px;
+    margin-left: 130px;
+   }
+</style>
+<body>
+  <header>
+    <div class="logo"><img src="main-logo.webp" alt="">
+    </div>
+    <li style="list-style: none; margin-left: -60px;">#ChunoWahiJoHaiSahi</li>
+    <button id="exploreButton" onclick="toggleFlexBoxes()">Explore Programs <span>&#10148;</span></button>
+    <nav>
+        <ul class="unorder">
+        <div class="unorder2">
+          <li ><a href="#topuniversities">Top Universities</a></li>
+          <li><a href="#resources">Resources</a></li>
+          <li class="sign"><a href="#">Sign In</a></li>
+        </ul></div>
+        <div class="search-container">
+          <input type="text" placeholder="Search">
+          <button type="submit">Search</button>
+        </div>
+      </nav>
+  </header>
+
+  
+
+  <div class="content">
+    <!-- Content goes here -->
+    <div id="explore">
+      <!-- <h2>Explore Now</h2>
+      <p>Click below to explore the 8 flex boxes:</p> -->
+      <div id="flexBoxes"></div>
+    </div>
+
+   
+  </div>
+
+
+
+  <footer class="footer11">
+    <a href="mailto:dk320124@gmail.com">&copy; 2023 College Vidhya. All rights reserved.</a></p>
+</footer>
+
+  <script src="script.js"></script>
+
+
+
+  
+</body>
+</html>
